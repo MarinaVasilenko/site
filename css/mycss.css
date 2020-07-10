@@ -1,0 +1,315 @@
+/*логотип*/
+
+.logo {
+    width: 300px;
+    height: 80px;
+    margin: -15px;
+}
+
+.logo_once_char {
+    width: 80px;
+    height: 80px;
+    margin: -15px;
+}
+
+/*о нас*/
+
+.about_us {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about_us1 {
+    color: #FFFFFF;
+    padding: 0;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/*GALLERY*/
+.my-gallery {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /*float: left;*/
+    margin-top: 79px;
+    padding: 0 0 100px;
+}
+
+.my-gallery img {
+    width: 320px;
+    height: 320px;
+}
+
+.my-gallery figure {
+    display: block;
+    /*float: left;*/
+    margin: 0 5px 5px 0;
+}
+
+.my-gallery figcaption {
+    display: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /*!* Margin bottom by footer height *!*/
+    /*margin-bottom: 60px;*/
+    background-color: #222;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100%;
+}
+
+/*Белая полоса под навигацией*/
+.navbar-inverse {
+    border-color: white;
+}
+
+/*оплата и доставка*/
+.pay {
+    margin: 120px 60px 0 50px;
+    color: white;
+}
+
+.pay1 {
+    line-height: 2em;
+}
+
+/*email со страницы контакты */
+.mail > a:link {
+    color: white; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.mail > a:hover {
+    color: #d58512; /*Цвет ссылки при наведении на нее курсора мыши*/
+    text-decoration: none;
+}
+
+.mail > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/*Карта*/
+#map {
+    width: 850px;
+    height: 400px;
+    background-color: grey;
+    margin: 100px 0 0 0;
+}
+
+/*footer*/
+.footer_rel {
+    position: relative;
+}
+
+.footer {
+
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: auto;
+    background-color: #222;
+    color: #fff;
+    padding-top: 60px;
+}
+
+/*footer text*/
+.footer1 {
+    margin-left: 50px;
+    font-size: 15px;
+    color: #9d9d9d;
+}
+
+.footer2 {
+    font-size: 12px;
+    margin-left: 55px;
+    line-height: 0.5;
+    color: #9d9d9d;
+}
+
+/*email */
+.footer2 > a:link {
+    color: #9d9d9d; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.footer2 > a:hover {
+    color: #d58512; /*Цвет ссылки при наведении на нее курсора мыши*/
+    text-decoration: none;
+}
+
+.footer2 > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footer4 {
+    font-size: 10px;
+    color: silver;
+    text-align: center;
+}
+
+.logo2 {
+    /*padding-top: 50px;*/ /*для нормального сайта padding*/
+    width: 660px; /* размер только для сайт в разработке*!*/
+    height: 390px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #222;
+    color: #9d9d9d;
+}
+
+.nav > li > a {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+/* ------------------------------------
+контакты мобильная версия
+------------------------------------*/
+
+@media (max-width: 480px) {
+    .text_contacts {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        /*padding-top: 25px;*/
+    }
+
+    .text_contacts2 {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 25px;
+    }
+
+    #map {
+        width: 300px;
+        height: 300px;
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .text_contacts {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 50px;
+    }
+
+    .text_contacts2 {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 25px;
+    }
+
+    #map {
+        width: 300px;
+        height: 300px;
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .text_contacts {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 25px;
+    }
+
+    .text_contacts2 {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 100px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .text_contacts {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 100px;
+    }
+
+    .text_contacts2 {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .text_contacts {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 70px;
+    }
+
+    .text_contacts2 {
+        font-size: 12px;
+        color: white;
+        line-height: 1.5em;
+        padding-top: 25px;
+    }
+
+}
+
+/* ------------------------------------
+   проба новой галереи
+   ------------------------------------*/
+/*отступ сверху от иконок*/
+.furniture {
+    padding-top: 80px;
+}
+
+/*цвет иконок с фотками*/
+.furniture_img {
+    background-color: #BBBBBB;
+}
+
+/*отступ модального окна */
+#myModal {
+    padding-top: 100px;
+}
+
+/*размер заглавного текста*/
+.text_modal_size {
+    font: 50px;
+}
+
+/* цена*/
+.price .sum {
+    font: 25pt Franklin Gothic Demi;
+    color: #000000;
+    padding-left: 20px;
+}
+
+#order {
+    background-color: #5cb85c;
+    border-color: #3e8f3e;
+    /*font-size: 18px;*/
+    float: right;
+    font: 14pt franklin gothic medium;
+}

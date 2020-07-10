@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /contacts.html
+Disallow: /index2.html
+Disallow: /store.html
+Disallow: /gallery.html
+Disallow: /payment.html
